@@ -35,7 +35,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
             downloadUrl,
             `${json.result.title}.mp4`,
             `
-              ≡  *XNXX DL*
+              ≡  *SHAGEE XNXX DL*
         
               ▢ *📌Title*: ${json.result.title}
               ▢ *⌚Duration*: ${json.result.duration}
@@ -47,7 +47,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
           );
           m.react('✅');
         } else {
-          m.reply('🔴 Error: Failed to retrieve the download URL.');
+          m.reply('🔴 Error: Failed to retrieve the download URL BY SHAGEE.');
         }
       } else {
         m.reply('🔴 Error: Failed to fetch the video details.');
