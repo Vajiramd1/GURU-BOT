@@ -76,10 +76,10 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Kolkata').format('HH')
+      const time = moment.tz('Asia/colombo').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
-        res = "Good Morning 🌄"
+        res = "Good Morning SHAGEE 🌄"
       }
       if (time >= 10) {
         res = "Good Afternoon ☀️"
